@@ -1,0 +1,26 @@
+    1  cd /d
+    2  mkdir cursos
+    3  cd cursos/
+    4  mkdir workgit
+    5  cd workgit/
+    6  mkdir demo
+    7  git init
+    8  git status
+    9  touch.exe README.md
+   10  vi README.md 
+   11  git commit -m "first commit"
+   12  git add .
+   13  git commit -m "first commit"
+   14  git remote add origin https://github.com/davis18/git.git
+   15  git push -u origin master
+   16  git branch dev
+   17  git checkout dev
+   18  git checkout -b 'otro'
+   19  git checkout -b 'demo1'
+   20  touch.exe demo.py
+   21  vi demo.py 
+   22  git commit -am "primer cambio" demom.py
+   23  git commit -ma "primer cambio" demom.py
+   24  git commit -ma "primer cambio"
+   25  git commit -am "primer cambio"
+   26  history > dd.txt
